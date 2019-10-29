@@ -1,0 +1,208 @@
+body {
+    background-color: #eeeeee;
+}
+.bodyf{
+    margin: auto;
+    width: 70%;
+    background-color: #eefdfd;
+    height: auto;
+    padding: 10px;
+    box-shadow: -1px 0px 5px lightsteelblue, 1px 0px 5px lightsteelblue;
+}
+.topsection{
+    height: 150px;
+    width: 100%;
+    
+}
+.mainimg {
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 3px solid lightblue ;
+    border-radius: 40px;
+    box-sizing: border-box;
+    float: left;
+    transition: height 1s, box-shadow 1s;
+    box-shadow: 0px 0px 0px grey;
+}
+.mainimg:hover{
+    height: 250px;
+    width: auto;
+    box-shadow: 30px 30px 30px grey;
+}
+.titlespot{
+    height: 60%;
+    width: 300px;
+    display: block;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+.myname{
+    margin-top: 20px;
+    color: #11999e;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.rank{
+    
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.rightsection a {
+    text-decoration: none;
+    color: #11999e;
+}
+.rightsection{
+    color: #11999e;
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.rightsection a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.mainsection {
+    width: 100%;
+    
+}
+.main1 {
+    width: 100%;
+    height: 150px;
+}
+.main1left {
+    width:30%;
+    height: 130px;
+    float: left;
+    color: #11999e;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.main1right {
+    width :65%;
+    height: 130px;
+    float: right;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.main2{
+    width: 100%;
+    height: auto;
+}
+.main2left{
+    width: 30%;
+    height:auto;
+    float: left;
+    color: #11999e;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+.main2right{
+    width: 65%;
+    height: auto;
+    float: right;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.hrc {
+    width: 100%;
+    height: 2px;
+    background-color: #dddddd;
+    clear: both;
+    border: none;
+}
+.titlejob, .jobdate{
+    color: #11999e;
+    margin-top: 0px;
+}
+.main3{
+    width: 100%;
+    height: auto;
+}
+.main3left{
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #11999e;
+    font-weight: bold;
+}
+.main3right{
+    width: 65%;
+    height: auto;
+    float: right;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.main3rightleft{
+    width: 45%;
+    height: auto;
+    float: left;
+}
+.main3rightright{
+    width: 45%;
+    height: auto;
+    float: left;
+}
+.main4{
+    width: 100%;
+    height: auto;
+}
+.main4left{
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #11999e;
+    font-weight: bold;
+}
+.main4right{
+    width: 65%;
+    float: right;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.fdiv{
+    width:99%;
+    /*background-color: darkslategrey;*/
+    background-color: black;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.flink{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    /*color: darkturquoise;*/
+    color: white;
+    
+}
+.flink:hover{
+    color: white;
+    text-decoration: underline;
+}
+.main4rightlist {
+    margin: 0px;
+    padding: 0px;
+    list-style-position: inside;
+}
